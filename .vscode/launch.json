@@ -2,9 +2,21 @@
     "configurations": [
         {
             "type": "chrome",
-            "name": "http://127.0.0.1:3000/4.3 HTML Porfolio Project/public/birthday-invite.html",
+            "name": "http://127.0.0.1:3000/8.1 CSS Float/index.html",
             "request": "launch",
-            "url": "http://127.0.0.1:3000/4.3 HTML Porfolio Project/public/birthday-invite.html"
+            "url": "http://127.0.0.1:3000/8.1 CSS Float/index.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/8.3 Media Query/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/8.3 Media Query/index.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/9.4+Flexbox+Pricing+Table+Project/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/9.4+Flexbox+Pricing+Table+Project/index.html"
         }
     ]
 }
