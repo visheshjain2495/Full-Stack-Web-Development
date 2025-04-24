@@ -1,0 +1,15 @@
+.dropdown>.btn{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+.carousel-item {
+    width: fit-content;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }

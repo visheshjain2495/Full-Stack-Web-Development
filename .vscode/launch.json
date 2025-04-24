@@ -2,21 +2,21 @@
     "configurations": [
         {
             "type": "chrome",
-            "name": "http://127.0.0.1:3000/8.1 CSS Float/index.html",
+            "name": "http://127.0.0.1:3000/11.0 Bootstrap Intro/index.html",
             "request": "launch",
-            "url": "http://127.0.0.1:3000/8.1 CSS Float/index.html"
+            "url": "http://127.0.0.1:3000/11.0 Bootstrap Intro/index.html"
         },
         {
             "type": "chrome",
-            "name": "http://127.0.0.1:3000/8.3 Media Query/index.html",
+            "name": "http://127.0.0.1:3000/11.2 Bootstrap Components/index.html",
             "request": "launch",
-            "url": "http://127.0.0.1:3000/8.3 Media Query/index.html"
+            "url": "http://127.0.0.1:3000/11.2 Bootstrap Components/index.html"
         },
         {
             "type": "chrome",
-            "name": "http://127.0.0.1:3000/9.4+Flexbox+Pricing+Table+Project/index.html",
+            "name": "http://127.0.0.1:3000/11.3 TinDog Project/index.html",
             "request": "launch",
-            "url": "http://127.0.0.1:3000/9.4+Flexbox+Pricing+Table+Project/index.html"
+            "url": "http://127.0.0.1:3000/11.3 TinDog Project/index.html"
         }
     ]
 }

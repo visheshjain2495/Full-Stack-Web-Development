@@ -5,7 +5,7 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,6 +23,7 @@ app.get('/', (req, res) => {
 app.get('/qr', (req, res) => {
   const url = req.query.url;
   if (!url) return res.status(400).send('URL is required');
+  if (!url) return res.status(500).send('Error generating QR code');
 
   try {
     const qr_svg = qr.image(url, { type: 'png' });
