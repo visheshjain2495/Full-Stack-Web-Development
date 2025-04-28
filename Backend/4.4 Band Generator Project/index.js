@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 app.post("/submit", (req, res) => {
   function generateName(){
-    return adj[Math.round(Math.random()*adj.length)]+"-"+noun[Math.round(Math.random()*noun.length)];
+    return adj[Math.floor(Math.random()*adj.length)]+"-"+noun[Math.floor(Math.random()*noun.length)];
   }
 
   res.render("index.ejs", { message : generateName()})
